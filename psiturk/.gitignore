@@ -1,0 +1,7 @@
+/server.log
+/participants.db
+
+*.pyc
+
+/.psiturk_history
+/.psiturkconfig

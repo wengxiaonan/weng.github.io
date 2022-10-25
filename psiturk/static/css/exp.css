@@ -1,0 +1,7 @@
+.jspsych-content { max-width: 750px !important; }
+
+p.quiet-instructions { font-size: 12pt; color: #555; border-top: 1px solid #ccc; margin-top: 40px; }
+p.zarf-verb { font-size: 20pt; font-weight: bold; }
+p.zarf-sentence { font-size: 15pt; font-weight: bold; }
+p.zarf-sentence strong { color: #c23b22 }
+img.stim-image { padding: 2px; border: 2px solid #ccc; }

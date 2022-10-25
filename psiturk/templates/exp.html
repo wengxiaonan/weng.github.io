@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Language Learning Experiment</title>
+        <script src="/static/lib/jquery-min.js" type="text/javascript"></script>
+        <script src="/static/lib/underscore-min.js" type="text/javascript"></script>
+        <script src="/static/lib/backbone-min.js" type="text/javascript"></script>
+
+        <script src="/static/js/jspsych/jspsych.js" type="text/javascript"></script>
+        <script src="/static/js/jspsych/plugins/jspsych-instructions.js" type="text/javascript"></script>
+        <script src="/static/js/jspsych/plugins/jspsych-image-keyboard-response.js" type="text/javascript"></script>
+        <script src="/static/js/jspsych/plugins/jspsych-html-keyboard-response.js" type="text/javascript"></script>
+        <script src="/static/js/jspsych-delayed-html-keyboard-response.js" type="text/javascript"></script>
+        <script src="/static/js/jspsych/plugins/jspsych-call-function.js" type="text/javascript"></script>
+        <script src="/static/js/jspsych/plugins/jspsych-survey-text.js" type="text/javascript"></script>
+        <script src="/static/js/jspsych/plugins/jspsych-survey-multi-choice.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+            // These fields provided by the psiTurk Server
+            var uniqueId = "{{ uniqueId }}"; // a unique string identifying the worker/task
+            var adServerLoc = "{{ adServerLoc }}"; // the location of your ad (so you can send user back at end of experiment)
+            var mode = "{{ mode }}"; // is this running live, sandbox, or in debug mode?
+        </script>
+
+        <!-- utils.js and psiturk.js provide the basic psiturk functionality -->
+        <script src="/static/js/utils.js" type="text/javascript"></script>
+        <script src="/static/js/psiturk.js" type="text/javascript"></script>
+
+        <link href="/static/css/jspsych.css" rel="stylesheet" type="text/css" />
+        <link href="/static/css/exp.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+    </body>
+    <script type="text/javascript" src="/static/js/exp.js"></script>
+
+</html>

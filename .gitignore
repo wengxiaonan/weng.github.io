@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+.jupyter
+.ipython
+.local
+__pycache__
